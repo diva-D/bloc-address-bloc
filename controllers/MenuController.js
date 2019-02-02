@@ -58,6 +58,10 @@ module.exports = class MenuController {
         return this.contacts.length;
     }
 
+    remindMe(){
+        return "Learning is a life-long pursuit";
+    }
+
     getDate(){
         const date = new Date();
         console.log(date.toLocaleString());
