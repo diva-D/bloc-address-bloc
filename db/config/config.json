@@ -3,13 +3,13 @@
     "username": "postgres",
     "database": "address-bloc-dev",
     "dialect": "postgres",
-    "logging": true,
+    "logging": false,
     "port": 5432
   },
   "test": {
     "username": "postgres",
     "database": "address-bloc-test",
     "dialect": "postgres",
-    "logging": true
+    "logging": false
   }
 }
